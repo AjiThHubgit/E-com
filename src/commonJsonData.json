@@ -1,0 +1,28 @@
+{
+    "HeaderJson": [
+        {
+            "type": "logo",
+            "value": "LoGo"
+        },
+        {
+            "type": "main",
+            "value": {
+                "search": "Search",
+                "nav_menu": [
+                    {
+                        "name": "Laptop",
+                        "path": "/laptop"
+                    },
+                    {
+                        "name": "Mobile",
+                        "path": "/mobile"
+                    }
+                ],
+                "cart": {
+                    "cart_icon": "",
+                    "name": "Cart"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+Why we use .env ?
+
+1. Separation of Configuration and Code
+Configuration Management: It allows you to keep configuration settings separate from your code. This makes your codebase cleaner and easier to manage.
+Environment-specific Settings: You can maintain different configuration settings for different environments (development, testing, production) without changing the code.
+2. Security
+Sensitive Information: Environment variables often contain sensitive information such as API keys, database credentials, and other secrets. Storing these in a .env file prevents them from being hard-coded in your source code, reducing the risk of exposing them.
+3. Convenience
+Ease of Change: If you need to change an environment variable, you can do so in the .env file without touching the application code. This is especially useful for deployments and managing different stages of development.
+Consistency: It ensures consistent configuration across different environments. You can share the same codebase and simply change the .env file as needed for different setups.
+4. Environment Variables
+Standard Practice: Using environment variables is a standard practice in software development for managing application settings.
+Framework Support: Many frameworks and libraries (e.g., Create React App, Django, Node.js) have built-in support for loading environment variables from a .env file, making it easy to integrate into your workflow.
+
+
+Loader Package:
+
+https://mhnpd.github.io/react-loader-spinner/docs/intro
+
+<MutatingDots
+  visible={true}
+  height="100"
+  width="100"
+  color="#4fa94d"
+  secondaryColor="#4fa94d"
+  radius="12.5"
+  ariaLabel="mutating-dots-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
